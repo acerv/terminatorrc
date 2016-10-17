@@ -1,0 +1,28 @@
+[global_config]
+  handle_size = 1
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+  title_transmit_bg_color = "#283f6d"
+[keybindings]
+  close_term = <Alt>q
+  split_horiz = <Alt>minus
+  split_vert = <Alt>backslash
+  toggle_zoom = <Alt>f
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#101010"
+    background_image = None
+    copy_on_selection = True
+    foreground_color = "#eaeaea"
+    palette = "#171717:#ff5e5e:#9ce82b:#f0e68c:#008aff:#e88cff:#87cefa:#dcdccc:#737373:#ff7878:#9acd32:#eee8aa:#4f98ff:#eda6ff:#b0e2ff:#ffffff"
+    scrollbar_position = hidden
