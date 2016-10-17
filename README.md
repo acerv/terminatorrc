@@ -17,6 +17,7 @@ The terminator commands are taken from my i3 configuration:
 * Alt+Right moves right
 * Alt+Up    moves up
 * Alt+Down  moves down
+* Alt+f     zoomes current terminal
 
 ## Colors
 
